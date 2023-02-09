@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.container {
+	width: 50ch;
+}
+
+.title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding-inline: 0.5rem;
+}
+
+h1 {
+	font-family: 'DM Serif Display', serif;
+}
+
+button {
+	border: none;
+	border-radius: 0.5rem;
+	background-color: transparent;
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 1rem;
+	height: 80%;
+	cursor: pointer;
+}
+
+.loading {
+	font-family: 'DM Serif Display';
+	padding-inline: 0.5rem;
+}
+
+.joke {
+	background-color: white;
+	margin-top: 0.5rem;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	box-shadow: hsl(0, 0%, 87%) 0 8px 16px;
+}
+
+.type-id {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: 'DM Serif Display';
+	font-size: 1.05rem;
+	font-weight: bold;
+}
+
+.setup {
+	font-size: 1.2rem;
+	font-family: 'Lato';
+	margin-top: 2.5rem;
+}
+
+.punchline {
+	margin-top: 0.5rem;
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-family: 'DM Serif Display', serif;
+}
